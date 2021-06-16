@@ -1,0 +1,123 @@
+.navbar {
+    overflow: hidden;
+    background-color: #111111;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.navbar a:hover {
+    background-color: #929799;
+    color: white;
+}
+
+
+.office {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .search-container {
+    float: right;
+}
+
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar .search-container input {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#frontpage {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* styles for grid */
+.grid-container {
+    margin: 10px auto 10px auto;
+    width: 800px;
+    border: 1px solid #eee;
+    background-color: grey;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    min-height: 1px;
+    padding: 16px;
+    background-color: grey;
+    border: 1px dotted grey;
+    text-align: center;
+}
+
+
+.col > p {
+    background-color: black;
+    width: 120px;
+}
+
+
+.col > p span {
+
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* styles for the suggestion div block and the spans in it*/
+#suggestionDiv {
+    position: absolute;
+    padding: 0;
+    margin-left: 92px;
+    margin-top: 22px;
+
+    background-color: white;
+    font-size: 0.85em;
+    z-index: 9999;
+
+}
+
+#suggestionDiv span {
+    display: block;
+    padding: 4px 3px 4px 10px;
+    cursor: default;
+    min-width: 18px;
+}
+
+#frontpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
